@@ -11,7 +11,7 @@ const App = () => {
     {id: 4, text: "Juice"}
   ])
 
-  const deleteItem = (Id) => {
+  const deleteItem = (id) => {
     setItems(prevItem => {
       return prevItem.filter(item => item.id != id)
     })
